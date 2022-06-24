@@ -1,7 +1,8 @@
 from toto.lib import whats_my_name
 
 def test_largo():
-    res = whats_my_name()
+    #res = whats_my_name()
+    res = ""
     assert len(res) != 0
 
 def test_whoiam():
